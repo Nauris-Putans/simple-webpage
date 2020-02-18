@@ -4,11 +4,6 @@
     margin: 0 auto;
 }
 
-.menu {
-    background-color: brown;
-    float: left;
-}
-
 .leftside {
     background-color: darkgreen;
     width: 100px;
@@ -32,6 +27,7 @@
 }
 
 .menu {
+    background-color: brown;
     height: 37px;
     text-align: center;
 }
@@ -49,4 +45,12 @@
 .menu>ul>li>a {
     text-decoration: none;
     color: #fff;
+}
+
+.gallery {
+    max-width: 100px;
+}
+
+.mgallery {
+    text-align: center;
 }
